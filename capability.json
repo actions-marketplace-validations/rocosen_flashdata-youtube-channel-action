@@ -1,0 +1,31 @@
+{
+  "source": "youtube_channel",
+  "name": "YouTube Channel",
+  "sample": {
+    "handle": "@GoogleDevelopers",
+    "video_limit": 5
+  },
+  "inputs": "handle; video_limit 1–100 (default 20)",
+  "outputs": "results[]: channelId, channelHandle, name, channelUrl, statistics, videos; usage.credits",
+  "limits": "A recent-video snapshot is not the complete channel archive.",
+  "outputExample": {
+    "source": "youtube_channel",
+    "status": "done",
+    "results": [
+      {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "channelHandle": "@jawed",
+        "name": "jawed",
+        "description": "",
+        "subscriberCount": 6580000,
+        "videoCount": 1,
+        "viewCount": null
+      }
+    ],
+    "usage": {
+      "credits": 0.01
+    }
+  },
+  "repository": "flashdata-youtube-channel-action",
+  "action_name": "YouTube Channel Snapshot - FlashData"
+}
