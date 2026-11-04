@@ -1,6 +1,6 @@
-name: YouTube Channel Snapshot - FlashData
-description: Save channel metadata and a bounded recent-video snapshot for a
-  channel-monitoring workflow.
+name: YouTube Channel Data
+description: Get YouTube channel details, statistics and up to 100 recent videos
+  from a handle. Export as JSON and JSONL.
 author: FlashData
 branding:
   icon: search
