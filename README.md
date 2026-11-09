@@ -2,11 +2,11 @@
 
 Get YouTube channel details, statistics and up to 100 recent videos from a handle. Export as JSON and JSONL.
 
-Powered by the [FlashData YouTube Channel API](https://flashdata.dev/docs/sources/youtube_channel). A recent-video snapshot is not the complete channel archive.
+Powered by the [FlashData YouTube Channel API](https://flashdata.dev/docs/sources/youtube_channel?utm_source=github-actions&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=youtube_channel-task). A recent-video snapshot is not the complete channel archive.
 
 ## Quick start
 
-Add a [FlashData API key](https://flashdata.dev/signup) as the repository secret `FLASHDATA_API_KEY`. API calls require FlashData Credits ([pricing](https://flashdata.dev/pricing)). Then add this workflow:
+Add a [FlashData API key](https://flashdata.dev/signup?utm_source=github-actions&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=youtube_channel-task) as the repository secret `FLASHDATA_API_KEY`. API calls require FlashData Credits ([pricing](https://flashdata.dev/pricing?utm_source=github-actions&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=youtube_channel-task)). Then add this workflow:
 
 ```yaml
 name: YouTube Channel Data
@@ -71,9 +71,9 @@ Empty results produce an empty JSONL file and `result-count: 0`. Optional fields
 
 ## Pricing and errors
 
-The action is free to install. FlashData API calls use paid Credits; GitHub runner/artifact costs are separate. [Current pricing](https://flashdata.dev/pricing).
+The action is free to install. FlashData API calls use paid Credits; GitHub runner/artifact costs are separate. [Current pricing](https://flashdata.dev/pricing?utm_source=github-actions&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=youtube_channel-task).
 
-401: check the API key. 402: add Credits. 429: rate/quota limit. After a timeout, check [FlashData Jobs](https://flashdata.dev) before rerunning: a request may already have been accepted. Paid POST requests are not retried. Requests have a 65-second timeout and a 16-MiB response limit.
+401: check the API key. 402: add Credits. 429: rate/quota limit. After a timeout, check [FlashData Jobs](https://flashdata.dev?utm_source=github-actions&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=youtube_channel-task) before rerunning: a request may already have been accepted. Paid POST requests are not retried. Requests have a 65-second timeout and a 16-MiB response limit.
 
 ## Development
 
